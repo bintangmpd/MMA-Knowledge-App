@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MMA Knowledge</string>
+    <string name="title">Nama Beladiri</string>
+    <string name="description">deskripsi beladiri</string>
+    <string name="about">About Me</string>
+    <string name="my_name">Bintang Mahesa</string>
+    <string name="email">bintangmpd26@gmail.com</string>
+    <string name="Bintang">Bintang Mahesa</string>
+    <string name="teknik_dasar">Nutritions</string>
+    <string name="share">Share to Friends</string>
+
+    <string-array name="data_name">
+        <item>Boxing</item>
+        <item>KickxBoxing</item>
+        <item>Muaythai</item>
+    </string-array>
+
+
+    <string-array name="data_description">
+        <item>Boxing atau Tinju, juga dikenal dengan sebutan boxing atau pugilism dalam bahasa Inggris, merupakan suatu bentuk olahraga bela diri. Istilah "pugilism" berasal dari kata Latin "pugilatus" atau serapan dari kata Yunani "Pugno, Pignis, Pignate," yang mengacu pada bentuk kotak atau "Box" dalam bahasa Inggris. Olahraga Tinju melibatkan pertandingan antara dua individu yang saling berhadapan dan saling serang menggunakan pukulan tangan yang dilengkapi dengan sarung tangan. Tujuan utamanya adalah untuk memberikan serangan kepada lawan sambil melindungi diri dari pukulan yang diberikan oleh lawan. Dalam pertandingan ini, skor diperhitungkan berdasarkan jumlah pukulan yang dianggap sah. Petinju akan mendapatkan skor lebih tinggi jika berhasil melakukan pukulan yang tepat, terutama pada bagian kepala atau dada lawan </item>
+        <item>Kickboxing merupakan sebuah bentuk beladiri yang berasal dari Jepang pada tahun 1950 yang menggabungkan elemen dari Muaythai dan Karate. Keahlian dalam Kickboxing sangat efektif dan berbahaya, dengan metode beladiri ini terdiri dari gerakan-gerakan yang fokus pada pertahanan dan serangan menggunakan 8 titik pada tubuh</item>
+        <item>Muay Thai, yang merupakan warisan dari bela diri kuno muay boran di Thailand, adalah sebuah olahraga bela diri yang memiliki sejarah panjang. Terkenal dengan sebutan "Seni Delapan Tungkai", Muay Thai melibatkan berbagai teknik serangan seperti pukulan, tendangan, sikuan, dan lutut. Lebih dari 2000 tahun yang lalu, Muay Thai dikembangkan di Kerajaan Thai dengan tujuan utama melindungi tentara kerajaan dalam peperangan </item>
+    </string-array>
+
+    <string-array name="teknik_dasar">
+        <item>Ada Ada empat pukulan utama dalam tinju, yakni Jab, Cross, Hook dan Uppercut. Jab. yang mana teknik dasar tersebut merupakan dasar dari semua elemen tinju</item>
+        <item>Oranges are an excellent source of vitamin C and provide a good amount of fiber. They also contain antioxidants like flavonoids.</item>
+        <item>Mangoes are high in vitamin C, vitamin A, and dietary fiber. They also contain compounds like beta-carotene and antioxidants.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/boxing</item>
+        <item>@drawable/kickboxing</item>
+        <item>@drawable/muaythai</item>
+    </integer-array>
+</resources>
