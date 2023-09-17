@@ -41,7 +41,7 @@ class DetailActivity : AppCompatActivity() {
             val data = intent.getParcelableExtra<Fruit>(DATA_FOOD)
 
             if (data != null) {
-                shareDetail(data.title, data.description)
+                shareDetail(data.title)
             } else {
                 showToast("Data buah tidak valid")
             }
@@ -57,11 +57,33 @@ class DetailActivity : AppCompatActivity() {
         return super.onSupportNavigateUp()
     }
 
-    private fun shareDetail(nameFruit: String, informations: String) {
-        val shareIntent = Intent(Intent.ACTION_SEND)
-        shareIntent.type = "text/plain"
-        val detailText = "Informasi detail buah:\nNama: $nameFruit\n$informations"
-        shareIntent.putExtra(Intent.EXTRA_TEXT, detailText)
-        startActivity(Intent.createChooser(shareIntent, "Bagikan informasi melalui:"))
+    private fun shareDetail(nameFruit: String) {
+        val intent = when (nameFruit) {
+            "Boxing" -> {
+                // Intent untuk menampilkan video-video boxing
+                Intent(this, BoxingActivity::class.java)
+            }
+
+            "KickxBoxing" -> {
+                // Intent untuk menampilkan video-video kickboxing
+                Intent(this, KickActivity::class.java)
+            }
+
+            "Muaythai" -> {
+                // Intent untuk menampilkan video-video kickboxing
+                Intent(this, MuaytaiActivity::class.java)
+            }
+
+            else -> {
+                // Intent untuk menampilkan pesan "Video Tidak ditemukan"
+                val errorIntent = Intent(this, BoxingActivity::class.java)
+                errorIntent.putExtra("errorMessage", "Video Tidak ditemukan")
+                errorIntent
+            }
+        }
+        // Mengirimkan jenis buah (fruitName) ke VideoActivity
+        intent.putExtra("fruitName", nameFruit)
+
+        startActivity(intent)
     }
 }

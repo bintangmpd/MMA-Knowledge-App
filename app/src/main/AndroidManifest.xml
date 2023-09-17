@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".MuaytaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoxingActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutActivity"
             android:exported="false" />
         <activity

@@ -70,7 +70,7 @@
         android:id="@+id/shareButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/share"
+        android:text="Lihat Tutorial"
         android:background="@color/gray"
         android:textColor="@color/white"
         android:textAllCaps="false"
