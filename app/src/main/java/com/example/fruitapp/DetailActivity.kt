@@ -63,14 +63,17 @@ class DetailActivity : AppCompatActivity() {
                 // Intent untuk menampilkan video-video boxing
                 Intent(this, BoxingActivity::class.java)
             }
+
             "KickxBoxing" -> {
                 // Intent untuk menampilkan video-video kickboxing
                 Intent(this, KickActivity::class.java)
             }
+
             "Muaythai" -> {
                 // Intent untuk menampilkan video-video kickboxing
                 Intent(this, MuaytaiActivity::class.java)
             }
+
             else -> {
                 // Intent untuk menampilkan pesan "Video Tidak ditemukan"
                 val errorIntent = Intent(this, BoxingActivity::class.java)

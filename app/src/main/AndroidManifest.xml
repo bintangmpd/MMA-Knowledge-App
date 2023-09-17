@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+<<<<<<< HEAD
             android:name=".MuaytaiActivity"
             android:exported="false" />
         <activity
@@ -24,6 +25,8 @@
             android:name=".VideoActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 7a097ff80dae56deee3a0f94e4a981a13e8bb8a4
             android:name=".AboutActivity"
             android:exported="false" />
         <activity
