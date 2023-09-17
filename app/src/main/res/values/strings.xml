@@ -24,8 +24,8 @@
 
     <string-array name="teknik_dasar">
         <item>Ada Ada empat pukulan utama dalam tinju, yakni Jab, Cross, Hook dan Uppercut. Jab. yang mana teknik dasar tersebut merupakan dasar dari semua elemen tinju</item>
-        <item>Oranges are an excellent source of vitamin C and provide a good amount of fiber. They also contain antioxidants like flavonoids.</item>
-        <item>Mangoes are high in vitamin C, vitamin A, and dietary fiber. They also contain compounds like beta-carotene and antioxidants.</item>
+        <item>Kebanyakan teknik pada kickboxing menggabungkan pukulan dengan tedangan. seebagai contoh, kombo jabstrike ditambah dengan berbagai macam tendangan seperti middle, headkick, pushkick, lowkick, dan masih banyak lagi </item>
+        <item>Serangan pada muaythai tidak terlalu berbeda dengan kickboxing, hanya saja serangan pada muaythai berfokus pada knee (lutut) dan elbow (sikut). ada banyak variasi serangan menggunakan knee dan elbow, seperti spinning elbow, high elbow begitu juga knee, seperti middle knee, clinch, dan head knee.</item>
     </string-array>
 
     <integer-array name="data_photo">
