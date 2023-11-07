@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -19,8 +20,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         rvFoods = findViewById(R.id.rv_fruit)
         rvFoods.setHasFixedSize(true)
+
+        val bt_quis = findViewById<Button>(R.id.bt_quis)
+
+        bt_quis.setOnClickListener {
+            val intent = Intent(this, QuisActivity::class.java)
+            startActivity(intent)
+        }
 
         list.addAll(getListFoods())
         showRecyclerList()
